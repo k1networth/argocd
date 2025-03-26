@@ -1,10 +1,10 @@
 nginx:
   image: cr.yandex/crpmu8s8n71mn96fbhe9/nginx:finally
-  replicas: 1
+  replicas: 2
   port: 8081
   config: nginx-config
 
 apache:
   image: cr.yandex/crpmu8s8n71mn96fbhe9/apache:finally
-  replicas: 1
+  replicas: 2
   port: 8080
